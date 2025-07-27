@@ -1,15 +1,23 @@
 body {
-  font-family: Arial;
-  text-align: center;
-  background: #f0f0f0;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #1a1a2e;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
+
+#quiz {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-  background: #4CAF50;
-  color: white;
-  border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
